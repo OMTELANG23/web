@@ -1,0 +1,947 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    height: 85px;
+    background-color: #000000;
+}
+@media (max-width: 980px){
+    .navbar{
+         background: red;
+        height: 92px;
+        width: 1522px;
+    }
+}
+
+img {
+    height: 87px;
+    width: 260px;
+    display: flex;
+    margin-left: 55px;
+}
+
+.search {
+    position: absolute;
+    margin-left: 17px;
+    margin-top: 9px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.nav-search {
+    background-color: #fcfcfc;
+    width: 700px;
+    height: 40px;
+    display: flex;
+    margin-left: 400px;
+    margin-top: -64px;
+    border-radius: 10px;
+}
+
+.tex {
+    position: absolute;
+    margin-left: 75px;
+}
+
+.searchinput {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 33px;
+    width: 640px;
+    display: flex;
+    margin-left: 35px;
+    margin-top: -31px;
+}
+
+.login {
+    color: white;
+    height: 30px;
+    width: 40px;
+    font-size: 26px;
+    position: absolute;
+    margin-left: 1130px;
+    margin-top: -33px;
+}
+
+.cart {
+    color: white;
+    font-size: 27px;
+    position: absolute;
+    margin-left: 1270px;
+    margin-top: -33px;
+}
+
+
+
+.p1 {
+    font-size: 25px;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 35px;
+}
+
+/*---------------login-------------------*/
+
+
+.sidear-container-navigation {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgb(0, 0, 0, 0.6);
+    transform: translateX(-100%);
+}
+
+.slidebar-show {
+    transform: translateX(0%);
+}
+
+.login-page {
+    height: 450px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    margin-left: 500px;
+    margin-top: 130px;
+    border-radius: 20px;
+}
+
+.header {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.tex {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+.email {
+    height: 34px;
+    width: 324px;
+    display: flex;
+    margin-top: 118px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.pass {
+    height: 34px;
+    width: 327px;
+    display: flex;
+    margin-top: 186px;
+    margin-left: -333px;
+    border-radius: 10px;
+}
+
+.user {
+    font-size: 22px;
+    position: absolute;
+    margin-top: 124px;
+    margin-left: 52px;
+}
+
+.passwords {
+    font-size: 22px;
+    position: absolute;
+    margin-top: 198px;
+    margin-left: 52px;
+}
+
+.black1 {
+    background-color: black;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 320px;
+    height: 70px;
+    width: 500px;
+}
+
+.image1 {
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 310px;
+}
+
+#close {
+    background-color: transparent;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -15px;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+
+#login-button {
+    position: absolute;
+    margin-left: 195px;
+    margin-top: 250px;
+    height: 40px;
+    width: 90px;
+    font-size: 25px;
+    color: white;
+    background-color: #FCA311;
+    border-radius: 7px;
+}
+
+
+/*--------------card---------------------*/
+.card-navigation {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgb(0, 0, 0, 0.6);
+    transform: translateX(-100%);
+}
+
+.slidebar-show {
+    transform: translateX(0%);
+}
+
+.card-page {
+    height: 550px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    margin-left: 485px;
+    margin-top: 110px;
+    border-radius: 10px;
+}
+
+.logo2 {
+    background-color: #000000;
+    display: flex;
+    margin-top: -550px;
+    margin-left: 485px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 500px;
+}
+
+.title {
+    background-color: #FCA311;
+    height: 39px;
+    width: 400px;
+    display: flex;
+    margin-left: 530px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 23px;
+}
+
+
+.upi-image {
+    height: 60px;
+    width: 140px;
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -70px;
+}
+
+#close2 {
+    display: flex;
+    margin-left: 990px;
+    margin-top: -160px;
+    font-size: 30px;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.circle {
+    position: absolute;
+    margin-left: 338px;
+    margin-top: -22px;
+}
+
+/*---------------google-box---------------*/
+.gooogle {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 201px;
+
+}
+
+.p2 {
+    display: flex;
+    margin-left: 400px;
+    margin-top: -26px;
+}
+
+.border1 {
+    border: solid black 2px;
+    height: 40px;
+    width: 265px;
+    display: flex;
+    margin-left: 380px;
+    margin-top: -30px;
+}
+
+.gooogle-image {
+    height: 91px;
+    width: 79px;
+    display: flex;
+    margin-left: 553px;
+    margin-top: -66px;
+}
+
+/*-----------------PhonePe-box---------------*/
+.PhonePe {
+    position: absolute;
+    margin-left: 228px;
+    margin-top: 273px;
+}
+
+.p3 {
+    display: flex;
+    margin-left: 400px;
+    margin-top: -26px;
+}
+
+.border2 {
+    border: solid black 2px;
+    height: 40px;
+    width: 265px;
+    display: flex;
+    margin-left: 380px;
+    margin-top: -30px;
+}
+
+.PhonePe-image {
+    height: 41px;
+    width: 45px;
+    display: flex;
+    margin-left: 571px;
+    margin-top: -43px;
+}
+
+/*--------------cash on delivery---------------*/
+.Cash-on-Delivery {
+    position: absolute;
+    margin-left: 228px;
+    margin-top: 343px;
+}
+
+.p4 {
+    display: flex;
+    margin-left: 400px;
+    margin-top: -26px;
+}
+
+.border3 {
+    border: solid black 2px;
+    height: 40px;
+    width: 265px;
+    display: flex;
+    margin-left: 380px;
+    margin-top: -29px;
+}
+
+.delivery-image {
+    height: 41px;
+    width: 45px;
+    display: flex;
+    margin-left: 571px;
+    margin-top: -43px;
+}
+
+/*------------upi-box----------------*/
+.UPI {
+    position: absolute;
+    margin-left: 228px;
+    margin-top: 412px;
+}
+
+.p5 {
+    display: flex;
+    margin-left: 400px;
+    margin-top: -26px;
+}
+
+.border4 {
+    border: solid black 2px;
+    height: 40px;
+    width: 265px;
+    display: flex;
+    margin-left: 380px;
+    margin-top: -29px;
+}
+
+.add-upi-image {
+    position: absolute;
+    margin-left: 560px;
+    margin-top: -40px;
+    height: 35px;
+    width: 69px;
+}
+
+.upi-input {
+    display: none;
+    margin-left: 611px;
+    margin-top: 426px;
+    height: 25px;
+    width: 194px;
+}
+
+input[type="radio"] {
+    width: 24px;
+    height: 22px;
+    position: absolute;
+    margin-left: 332px;
+    margin-top: -26px;
+}
+
+
+
+/*-------------- dots--------------*/
+.dots {
+    color: white;
+    font-size: 30px;
+    margin-left: 1390px;
+    margin-top: -55px;
+    position: relative;
+
+}
+
+.dots-box {
+    background-color: #f3efef;
+    height: 133px;
+    width: 197px;
+    position: absolute;
+    margin-left: -13px;
+    top: 45px;
+    box-shadow: -5px -0px 5px rgba(0, 0, 0, 0.1), 5px 5px 5px rgba(0, 0, 0, 0.1);
+    transform: translateX(-75px);
+    border-radius: 9px;
+    display: none;
+    padding-top: 6px;
+}
+
+.dots-box::before {
+    position: absolute;
+    margin-top: -14px;
+    content: "";
+    margin-left: 95px;
+    top: 11px;
+    top: 0px;
+    border-top: 0px solid transparent;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 15px solid #f3efef;
+}
+
+.dots:hover .dots-box {
+    display: block;
+}
+
+.help {
+    font-size: 23px;
+    color: black;
+    display: flex;
+    margin-left: 11px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+/*--------------help box first option customer service--------------*/
+.customer {
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 11px;
+    height: 30px;
+    width: 147px;
+    border: none;
+    font-size: 17px;
+}
+
+.customer-option {
+    display: none;
+    position: fixed;
+    top: 31px;
+    bottom: 0;
+    right: 0;
+    left: -17px;
+    z-index: 10;
+    background-color: #f3efef;
+    box-shadow: -5px -0px 5px rgba(0, 0, 0, 0.1), -3px 3px 0px rgba(0, 0, 0, 0.1);
+    transform: translateX(-100%);
+    border-radius: 10px;
+    height: 273px;
+    width: 1266px;
+}
+
+.customer-option::before {
+    position: absolute;
+    margin-top: 19px;
+    content: "";
+    margin-left: 1250px;
+    top: 11px;
+    top: 0px;
+    border-top: 1px solid transparent;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-bottom: 17px solid #f3efef;
+    transform: rotate(89deg);
+}
+
+.customer-option.active {
+    display: flex;
+    margin-top: 11px;
+    margin-left: 0px;
+    height: 19pc;
+    width: 79pc;
+}
+
+/*----------------customer service more box--------------*/
+.orders-box {
+    color: black;
+    border: solid black 2px;
+    position: fixed;
+    margin-top: 89px;
+    margin-left: 59px;
+    height: 81px;
+    width: 240px;
+    border-radius: 10px;
+    padding-left: 86px;
+    padding-top: 14px;
+    font-size: 24px;
+
+}
+
+.box-image {
+    height: 69px;
+    width: 70px;
+    display: flex;
+    margin-left: -74px;
+    margin-top: -32px;
+}
+
+.order-text {
+    font-size: 16px;
+    display: flex;
+    margin-top: -34px;
+    margin-left: 8px;
+    color: #5a5151;
+}
+
+/*------------returns-box-------------*/
+
+
+.returns-box {
+    color: black;
+    border: solid black 2px;
+    position: fixed;
+    margin-left: 448px;
+    margin-top: 89px;
+    height: 81px;
+    width: 266px;
+    border-radius: 10px;
+    padding-left: 86px;
+    padding-top: 14px;
+    font-size: 24px;
+}
+
+
+.returns-image {
+    height: 69px;
+    width: 70px;
+    display: flex;
+    margin-left: -74px;
+    margin-top: -32px;
+}
+
+.returns-text {
+    font-size: 16px;
+    display: flex;
+    margin-top: -34px;
+    margin-left: 8px;
+    color: #5a5151;
+}
+
+/*------------manage addresses-box-------------*/
+
+
+.addresses-box {
+    color: black;
+    border: solid black 2px;
+    position: fixed;
+    margin-left: 858px;
+    margin-top: 89px;
+    height: 81px;
+    width: 266px;
+    border-radius: 10px;
+    padding-left: 86px;
+    padding-top: 14px;
+    font-size: 24px;
+}
+
+
+.addresses-image {
+    height: 69px;
+    width: 70px;
+    display: flex;
+    margin-left: -74px;
+    margin-top: -32px;
+}
+
+.addresses-text {
+    font-size: 16px;
+    display: flex;
+    margin-top: -34px;
+    margin-left: 8px;
+    color: #5a5151;
+}
+
+
+
+/*-----------help box second option customer care number-------------*/
+.customer-care-number {
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 49px;
+    height: 30px;
+    width: 175px;
+    border: none;
+    font-size: 16px;
+    ;
+}
+
+.customer-option2 {
+    display: none;
+    margin-left: 199px;
+    margin-top: 80px;
+    height: 162px;
+    width: 209px;
+    position: fixed;
+    top: 72px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #f3efef;
+    box-shadow: -5px -0px 5px rgba(0, 0, 0, 0.1), 5px 5px 5px rgba(0, 0, 0, 0.1);
+    transform: translateX(-100%);
+    border-radius: 10px;
+}
+
+.customer-option2.active {
+    display: flex;
+    margin-top: 82px;
+    margin-left: 188px;
+    height: 168px;
+    width: 211px;
+}
+
+.customer-option2::before {
+    position: absolute;
+    margin-top: -16px;
+    content: "";
+    margin-left: 104px;
+    top: 11px;
+    top: 0px;
+    border-top: 0px solid transparent;
+    border-left: 25px solid transparent;
+    border-right: 26px solid transparent;
+    border-bottom: 17px solid #f3efef;
+}
+
+/*----------customer care box information-------------*/
+
+.customer-care-information {
+    color: black;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.customer-care-text {
+    color: black;
+    font-size: 13px;
+    flex-direction: row;
+    margin-left: 13px;
+    margin-top: -123px;
+    font-size: 16px;
+}
+
+.number {
+    position: fixed;
+    margin-left: 30px;
+    margin-top: -74px;
+    font-size: 18px;
+}
+
+.dots-for-number {
+    font-size: 12px;
+    position: fixed;
+    margin-left: -92px;
+    margin-top: -78px;
+}
+
+.helpdesk-timings {
+    display: flex;
+    margin-left: 6px;
+    margin-top: 5px;
+    position: fixed;
+}
+
+.email-head {
+    position: fixed;
+    margin-top: 81px;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+.email-address {
+    position: fixed;
+    margin-top: 126px;
+    margin-left: 23px;
+}
+
+/*--------------------more products-------------------------*/
+
+.more-products {
+    background-color: #eeeeee33;
+    box-shadow: -1px -105px 12px rgba(0, 0, 0, 0.1), 20px 20px 41px rgba(0, 0, 0, 0.1);
+    height: 113px;
+    width: 1492px;
+    display: flex;
+    margin-top: 27px;
+    margin-left: 11px;
+    border-radius: 10px;
+}
+/*this is for phone using time*/
+      @media (max-width: 980px) {
+    .more-products {
+        background: red;
+        display: flex;
+        margin-left: 8px;
+        width: 1481px;
+    }
+}
+   
+
+/*------phone-------*/
+.phone-image {
+    border-radius: 50px;
+    height: 75px;
+    width: 79px;
+    border: solid black 4px;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 465px;
+}
+
+
+
+.phone-text {
+    display: flex;
+    margin-top: 92px;
+    margin-left: -72px;  
+}
+
+/*phone box*/
+.phone-box {
+    background-color:#e5e5e5;
+    width: 100%;
+    height: 1500px;
+    transform: translateX(-100%);
+}
+/*this is for phone using time*/
+@media (max-width: 980px){
+   .phone-box{
+          background: white;
+        height: 30px;
+        width: 100px;
+        display: flex;
+        margin-left: -1416px;;
+   }
+}
+@media(max-width: 600px){
+    .phone-box{
+        display: none;
+    }
+}
+.phone-show-box {
+    transform: translateX(0%);
+}
+
+/*phone-head-line*/
+.text5{
+  position: fixed;
+    margin-left: 603px;
+    margin-top: 14px;
+    font-size: 71px;
+    color: white;
+    color: black;
+}
+/*design line*/
+.design-line1{
+    position: fixed;
+    margin-left: 950px;
+    margin-top: 12px;
+    font-size: 24px;
+}
+.design-line2{
+  position: fixed;
+    margin-left: 382px;
+    margin-top: 6px;
+    font-size: 24px;
+}
+
+/*phone box image*/
+.mobile-image{
+    position: fixed;
+    margin-left: 24px;
+    margin-top: 115px;
+    height: 275px;
+    width: 1476px;
+}
+/*phone1-btn*/
+.shop-btn{
+    position: fixed;
+    margin-left: 982px;
+    margin-top: 334px;
+    font-size: 30px;
+    background: transparent;
+    border: none;
+    color: white;
+}
+/*greater-than-icon*/
+#greater-than-icon{
+    position: fixed;
+    margin-top: 17px;
+    font-size: 25px;
+    margin-left: 5px;
+}
+/*phone box image2*/
+.mobile-image2{
+    position: fixed;
+    margin-left: 24px;
+    margin-top: 390px;
+    height: 280px;
+    width: 1476px;
+}
+.shop-btn2{
+    position: fixed;
+    margin-left: 793px;
+    margin-top: 613px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+#greater-than-icon2{
+     position: fixed;
+    margin-top: 17px;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+/*phone box image3*/
+.mobile-image3{
+    position: fixed;
+    margin-left: 24px;
+    margin-top: 670px;
+    height: 280px;
+    width: 1476px;
+}
+.shop-btn3{
+    position: fixed;
+    margin-left: 793px;
+    margin-top: 870px;
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 30px;
+}
+#greater-than-icon3{
+      position: fixed;
+    margin-top: 16px;
+    font-size: 25px;
+    margin-left: 5px;
+}
+/*electronic*/
+.electornics {
+    border-radius: 50px;
+    height: 76px;
+    width: 78px;
+    border: solid black 4px;
+    display: flex;
+    margin-top: 4px;
+    margin-left: 60px;
+}
+
+.electornics-text {
+    display: flex;
+    margin-top: 92px;
+    margin-left: -110px;
+}
+
+/*furniture*/
+.furniture {
+    border-radius: 50px;
+    height: 76px;
+    width: 78px;
+    border: solid black 4px;
+    display: flex;
+    margin-top: 4px;
+    margin-left: 25px;
+}
+
+.furniture-text {
+    display: flex;
+    margin-top: 92px;
+    margin-left: -74px;
+}
+
+/*grocery*/
+.grocery {
+    border-radius: 50px;
+    height: 76px;
+    width: 78px;
+    border: solid black 4px;
+    display: flex;
+    margin-top: 4px;
+    margin-left: 42px;
+}
+
+.grocery-text {
+    display: flex;
+    margin-top: 92px;
+    margin-left: -71px;
+}
+
+/*fashion*/
+.fashion {
+    border-radius: 50px;
+    height: 76px;
+    width: 78px;
+    border: solid black 4px;
+    display: flex;
+    margin-top: 4px;
+    margin-left: 41px;
+}
+
+.fashion-text {
+    display: flex;
+    margin-top: 92px;
+    margin-left: -71px;
+}
+
